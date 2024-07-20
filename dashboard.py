@@ -135,7 +135,7 @@ def inject_custom_css():
 
 
 def main():
-    st.set_page_config(
+    """st.set_page_config(
         page_title='Dashboard - Prêt à dépenser',
         layout='wide',
         page_icon='icon.png'
@@ -175,7 +175,9 @@ def main():
             columns_filter,
             data[columns_filter].values[0],
             users_filter
-        )
+        )"""
+    
+    st.write("test")
 
 
 if __name__ == '__main__':
